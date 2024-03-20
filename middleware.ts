@@ -5,3 +5,7 @@ export const middleware = (request) => {
 }
 
 export default middleware
+
+export const config = {
+  matcher: ['/docs'],
+}
